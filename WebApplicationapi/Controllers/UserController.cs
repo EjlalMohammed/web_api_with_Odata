@@ -26,5 +26,10 @@ namespace WebApplicationapi.Controllers
 
             return Ok(retrievedUser);
         }
+        [HttpGet("{id}")]
+        public ActionResult getuserbyid(int id)
+        {
+            return Ok(this.userServices.GetDatabyid(id));
+        }
     }
 }

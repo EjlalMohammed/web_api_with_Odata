@@ -31,3 +31,36 @@ C:\Users\Eng Ejlal\source\repos\WebApplicationapi\WebApplicationapi\bin\Debug\ne
 C:\Users\Eng Ejlal\source\repos\WebApplicationapi\WebApplicationapi\bin\Debug\net6.0\Microsoft.OData.Edm.dll
 C:\Users\Eng Ejlal\source\repos\WebApplicationapi\WebApplicationapi\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
 C:\Users\Eng Ejlal\source\repos\WebApplicationapi\WebApplicationapi\bin\Debug\net6.0\Microsoft.Spatial.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\appsettings.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\WebApplicationapi.exe
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\WebApplicationapi.deps.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\WebApplicationapi.runtimeconfig.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\WebApplicationapi.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\WebApplicationapi.pdb
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.OData.Core.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Microsoft.Spatial.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.csproj.AssemblyReference.cache
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.AssemblyInfoInputs.cache
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.AssemblyInfo.cs
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.csproj.CoreCompileInputs.cache
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\scopedcss\bundle\WebApplicationapi.styles.css
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.csproj.CopyComplete
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\refint\WebApplicationapi.dll
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.pdb
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\WebApplicationapi.genruntimeconfig.cache
+C:\Users\train2\Desktop\اجلال\web_api_with_Odata\WebApplicationapi\obj\Debug\net6.0\ref\WebApplicationapi.dll

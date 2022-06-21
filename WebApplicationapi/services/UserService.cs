@@ -4,29 +4,21 @@ namespace WebApplicationapi.services
 {
     public class UserService : IuserServices
     {
+        public static List<user> users = new List<user>() {
+            new user(){id=10,name="ejlal",location="sanaa"},
+            new user(){id=20,name="ola",location="sanaa"},
+            new user(){id=30,name="sara",location="sanaa"}
+        };
+        public List<user> GetDatabyid(int Id)
+        {
+            return users.Where(x => x.id == Id).ToList();
+
+
+        }
         public IQueryable<user> RetrieveAllUser()
         {
-            return new List<user>
-            { new user
-            {
-                id = 1,
-                name="ejlal",
-                location="sanaa"
-            },
-            new user
-            {
-                id = 2,
-                name="ejlal",
-                location="sanaa"
-            },
-            new user
-            {
-                id = 3,
-                name="ejlal",
-                location="sanaa"
-            }
-
-            }.AsQueryable();
+            return users.AsQueryable();
         }
+
     }
 }

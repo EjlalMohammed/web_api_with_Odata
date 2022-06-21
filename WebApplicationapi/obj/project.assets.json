@@ -586,19 +586,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eng Ejlal\\.nuget\\packages\\": {}
+    "C:\\Users\\train2\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eng Ejlal\\source\\repos\\WebApplicationapi\\WebApplicationapi\\WebApplicationapi.csproj",
+      "projectUniqueName": "C:\\Users\\train2\\Desktop\\اجلال\\web_api_with_Odata\\WebApplicationapi\\WebApplicationapi.csproj",
       "projectName": "WebApplicationapi",
-      "projectPath": "C:\\Users\\Eng Ejlal\\source\\repos\\WebApplicationapi\\WebApplicationapi\\WebApplicationapi.csproj",
-      "packagesPath": "C:\\Users\\Eng Ejlal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eng Ejlal\\source\\repos\\WebApplicationapi\\WebApplicationapi\\obj\\",
+      "projectPath": "C:\\Users\\train2\\Desktop\\اجلال\\web_api_with_Odata\\WebApplicationapi\\WebApplicationapi.csproj",
+      "packagesPath": "C:\\Users\\train2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\train2\\Desktop\\اجلال\\web_api_with_Odata\\WebApplicationapi\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Eng Ejlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\train2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -651,7 +655,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
