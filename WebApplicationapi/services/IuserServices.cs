@@ -1,4 +1,5 @@
-﻿using WebApplicationapi.modesl;
+﻿using Microsoft.AspNetCore.Mvc;
+using WebApplicationapi.modesl;
 
 namespace WebApplicationapi.services
 {
@@ -7,5 +8,7 @@ namespace WebApplicationapi.services
         IQueryable<user> RetrieveAllUser();
 
         public List<user> GetDatabyid(int id);
+
+        public string AddUser(user user);
     }
 }

@@ -31,5 +31,10 @@ namespace WebApplicationapi.Controllers
         {
             return Ok(this.userServices.GetDatabyid(id));
         }
+        [HttpPost]
+        public ActionResult addUser(user newuser)
+        {
+            return Ok(this.userServices.AddUser(newuser));
+        }
     }
 }
