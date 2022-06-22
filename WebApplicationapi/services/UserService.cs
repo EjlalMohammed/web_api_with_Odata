@@ -13,6 +13,7 @@ namespace WebApplicationapi.services
 
         public string AddUser(user user)
         {
+            
              users.Add(user);
             return user.name;
            
@@ -30,5 +31,14 @@ namespace WebApplicationapi.services
             return users.AsQueryable();
         }
 
+        public string update(user edituser)
+        {
+            var CurUser =users.Where(x => x.id == edituser.id).SingleOrDefault();
+            if (string.IsNullOrWhiteSpace(CurUser.name)){
+                return "name is empty";
+            }
+            CurUser.name = edituser.name;
+            return "edit succesfully";
+        }
     }
 }

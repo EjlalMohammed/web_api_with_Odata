@@ -10,5 +10,7 @@ namespace WebApplicationapi.services
         public List<user> GetDatabyid(int id);
 
         public string AddUser(user user);
+
+        public string update(user edituser);
     }
 }

@@ -34,7 +34,19 @@ namespace WebApplicationapi.Controllers
         [HttpPost]
         public ActionResult addUser(user newuser)
         {
-            return Ok(this.userServices.AddUser(newuser));
+            this.userServices.AddUser(newuser);
+            if (string.IsNullOrWhiteSpace(newuser.name))
+            {
+               // return BadRequest(new { ErrorCode - 501, ErrorMessage - "should enter user name" };
+                return BadRequest("Inavlid empty user name");
+            }
+
+            return Ok("has add new user");
+        }
+        [HttpPut]
+        public IActionResult updateUser( user newuser )
+        {
+            return Ok(this.userServices.update(newuser));
         }
     }
 }
