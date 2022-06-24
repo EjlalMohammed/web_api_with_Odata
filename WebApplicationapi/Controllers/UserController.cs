@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Query;
 using WebApplicationapi.modesl;
@@ -47,6 +48,12 @@ namespace WebApplicationapi.Controllers
         public IActionResult updateUser( user newuser )
         {
             return Ok(this.userServices.update(newuser));
+        }
+
+        [HttpPatch("{Id}")]
+        public IActionResult UpdateUserPartically(int Id,JsonPatchDocument userPatch)
+        {
+            return Ok(userServices.UpDateUserPartially(Id, userPatch));
         }
     }
 }

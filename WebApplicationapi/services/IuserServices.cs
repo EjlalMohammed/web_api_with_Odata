@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.JsonPatch;
+using Microsoft.AspNetCore.Mvc;
 using WebApplicationapi.modesl;
 
 namespace WebApplicationapi.services
@@ -12,5 +13,7 @@ namespace WebApplicationapi.services
         public string AddUser(user user);
 
         public string update(user edituser);
+
+        public string UpDateUserPartially(int  UserId,JsonPatchDocument userPatch);
     }
 }
