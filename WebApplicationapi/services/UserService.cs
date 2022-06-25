@@ -20,6 +20,8 @@ namespace WebApplicationapi.services
            
         }
 
+        
+
         public List<user> GetDatabyid(int Id)
         {
 
@@ -52,6 +54,17 @@ namespace WebApplicationapi.services
 
             userPatch.ApplyTo(CurUser);
             return "edit succesfully";
+        }
+
+        public string DeleteUser(int UserId)
+        {
+            var CurUser = users.Where(x => x.id == UserId).SingleOrDefault();
+            if (CurUser == null)
+            {
+                return "not found";
+            }
+            users.Remove(CurUser);
+            return "deleted succesfuly";
         }
     }
 }

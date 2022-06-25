@@ -15,5 +15,7 @@ namespace WebApplicationapi.services
         public string update(user edituser);
 
         public string UpDateUserPartially(int  UserId,JsonPatchDocument userPatch);
+
+        public string DeleteUser(int UserId);
     }
 }

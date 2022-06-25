@@ -11,6 +11,7 @@ namespace WebApplicationapi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+
         private readonly IuserServices userServices;
 
         public UserController(IuserServices userServices)
@@ -55,5 +56,13 @@ namespace WebApplicationapi.Controllers
         {
             return Ok(userServices.UpDateUserPartially(Id, userPatch));
         }
+
+        [HttpDelete("{id}")]
+        public IActionResult deleteUser(int id)
+        {
+            return Ok(userServices.DeleteUser(id));
+        }
+
+       
     }
 }
