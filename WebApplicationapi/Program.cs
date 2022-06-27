@@ -5,8 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers().AddOData(options => 
-    options.Select().Filter().Count()).AddNewtonsoftJson();
+builder.Services.AddControllers()
+    .AddOData(options => 
+    options.Select().Filter().Count())
+    .AddNewtonsoftJson();
 
 
 builder.Services.AddTransient < IuserServices , UserService >();
