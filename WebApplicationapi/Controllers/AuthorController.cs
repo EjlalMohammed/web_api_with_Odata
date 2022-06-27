@@ -79,7 +79,7 @@ namespace WebApplicationapi.Controllers
             //chect if Author has book
             if(BookController.BookList.Any(x=>x.AuthorId== AuthorId))
             {
-                return BadRequest("this author has dependency")
+                return BadRequest("this author has dependency");
             }
             Authors.Remove(CurAuthor);
             return NoContent();
